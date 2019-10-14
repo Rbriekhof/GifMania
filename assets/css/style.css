@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/800px-Tioman_Rainforest.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    max-width: 100%;
+}
+.jumbotron {
+    margin: 7%;
+    border: 3px
+    
+}
