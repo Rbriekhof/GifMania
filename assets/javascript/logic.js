@@ -19,7 +19,7 @@ $(document).on("click", ".searchButton", function () {
     $("#searches").empty()
     var type = $(this).data("type");
     console.log(type)
-    var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=bUxvyN8lJZboDixUH1MtG8iWyFULj5HS&limit=10&q=" + type
+    var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + topic + '&api_key=jVz8LzEOLKTNPSj1tux4I40dP1PX6Pbg&limit=10';
     $.ajax({
         url: queryURL,
         method: "GET"
