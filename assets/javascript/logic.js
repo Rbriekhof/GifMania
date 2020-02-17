@@ -19,7 +19,7 @@ $(document).on("click", ".searchButton", function () {
     $("#searches").empty()
     var type = $(this).data("type");
     console.log(type)
-    var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + topic + '&api_key=jVz8LzEOLKTNPSj1tux4I40dP1PX6Pbg&limit=10';
+    var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + type + '&api_key=jVz8LzEOLKTNPSj1tux4I40dP1PX6Pbg&limit=10';
     $.ajax({
         url: queryURL,
         method: "GET"
